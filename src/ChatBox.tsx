@@ -84,6 +84,7 @@ let Chat: React.FC<Props> = ({ userName }) => {
 </div>
       <div id="inputboxfixed" className="row row-padding ">
         <div className="col-lg-4 col-lg-offset-4 inputbox2">
+         
           <div className="input" id="chatsendblogstyle">
             
             <input
@@ -104,7 +105,9 @@ let Chat: React.FC<Props> = ({ userName }) => {
             </button>
 
         
-          </div>
+            </div>
+            
+
         </div>
     </div>
     

@@ -86,11 +86,12 @@ p {
 .input {
   height: 25px;
   margin-right: 12px;
-  bottom: 13%;
+  bottom: 15%;
 
   position: fixed;
 }
 #landingpageInput {
+
   height: 25px;
   position: fixed;
   margin: 23px;
@@ -125,7 +126,9 @@ p {
   background-color: black;
   border: none;
   color: white;
-  padding: 2px 10px;
+  padding-left:4px;
+  padding-top: 2px;
+  padding: 2px 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -137,8 +140,8 @@ p {
 @media only screen and (max-width: 600px){
 .input {
     position: fixed;
-    top: 529px;
-    right: 21px;
+    top: 521px;
+    right: 29px;
 }
 }
 
@@ -151,7 +154,7 @@ p {
   @media only screen and (max-width: 540px){
     #myInput {
       padding-right: 62px;
-      width: 202px;
+      width: 264px;
       
     }
     }
